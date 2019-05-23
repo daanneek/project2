@@ -18,6 +18,11 @@ public class CMGT extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cmgt);
     }
+    public void goToPop(View v) {
+        Intent a = new Intent(this, Pop.class);
+        startActivity(a);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
     public void calender1(View v){
         Calendar beginTime = Calendar.getInstance();
         beginTime.set(2020, 3, 17, 7, 30);

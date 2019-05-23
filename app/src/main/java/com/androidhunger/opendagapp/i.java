@@ -20,23 +20,13 @@ public class i extends AppCompatActivity {
         setContentView(R.layout.activity_informatica);
 
     }
-    public void map(View v) {
-        ImageButton g = findViewById(R.id.Googlemaps1);
-        g.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(i.this,Pop.class));
-            }
-        });}
-        public void map2(View v) {
-            ImageButton h = findViewById(R.id.Googlemaps2);
-            h.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(new Intent(i.this,Pop.class));
-                }
-            });
+    public void goToPop(View v) {
+        Intent a = new Intent(this, Pop.class);
+        startActivity(a);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
+
+
     public void calender1(View v){
         Calendar beginTime = Calendar.getInstance();
         beginTime.set(2020, 3, 17, 7, 30);

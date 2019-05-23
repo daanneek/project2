@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -96,7 +94,7 @@
         android:layout_width="390dp"
         android:layout_height="210dp"
         android:padding="10dp"
-        android:text="Communicatie is een Vierjarige bachelor in het Nederlands die start in september Onze opleiding Communicatie leidt jou in vier jaar op tot wat we een smart connector noemen. Met inzet van bijvoorbeeld social tools, storytelling, big data en co-creatie. Je ontwikkelt creatieve concepten zoals mediacampagnes, events en verhalenplatforms. Op basis van goed onderzoek, theorie en strategie en natuurlijk jouw eigen verrassende ideeën. De opleiding Communicatie leert je om als smart connector mensen te raken, te verbinden en te bewegen."
+        android:text="@string/Communicatie"
         android:textColor="#111"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/background2"
@@ -277,6 +275,32 @@
         app:layout_constraintStart_toStartOf="@+id/background13"
         app:layout_constraintTop_toTopOf="@+id/background13"
         app:layout_constraintVertical_bias="0.571" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        android:onClick="goToPop"
+        android:src="@drawable/ic_map"
+        app:layout_constraintBottom_toBottomOf="@+id/background3"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="@+id/background3"
+        app:layout_constraintTop_toTopOf="@+id/background3"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        android:onClick="goToPop"
+        android:src="@drawable/ic_map"
+        app:layout_constraintBottom_toBottomOf="@+id/background13"
+        app:layout_constraintEnd_toEndOf="@+id/background13"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="@+id/background13"
+        app:layout_constraintTop_toTopOf="@+id/background13"
+        app:layout_constraintVertical_bias="0.173" />
 
 
 </android.support.constraint.ConstraintLayout>

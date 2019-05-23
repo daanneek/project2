@@ -227,8 +227,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="189dp"
-        android:layout_height="97dp"
+        android:layout_width="147dp"
+        android:layout_height="96dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
@@ -271,8 +271,8 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="189dp"
-        android:layout_height="97dp"
+        android:layout_width="164dp"
+        android:layout_height="96dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Informatica&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Maandag 6 Januari 2020"
@@ -280,18 +280,17 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/background13"
         app:layout_constraintEnd_toEndOf="@+id/background13"
-        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="@+id/background13"
         app:layout_constraintTop_toTopOf="@+id/background13"
-        app:layout_constraintVertical_bias="0.457" />
+        app:layout_constraintVertical_bias="0.444" />
 
     <ImageButton
-        android:id="@+id/Googlemaps1"
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:background="#00FFFFFF"
         android:src="@drawable/ic_map"
-        android:onClick="map"
+        android:onClick="goToPop"
         tools:layout_editor_absoluteX="283dp"
         tools:layout_editor_absoluteY="288dp"
         app:layout_constraintBottom_toBottomOf="@+id/background3"
@@ -302,12 +301,11 @@
         app:layout_constraintVertical_bias="0.163"/>
 
     <ImageButton
-        android:id="@+id/Googlemaps2"
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:background="#00FFFFFF"
         android:src="@drawable/ic_map"
-        android:onClick="map2"
+        android:onClick="goToPop"
         tools:layout_editor_absoluteX="283dp"
         tools:layout_editor_absoluteY="288dp"
         app:layout_constraintBottom_toBottomOf="@+id/background13"

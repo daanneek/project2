@@ -278,5 +278,32 @@
         app:layout_constraintTop_toTopOf="@+id/background13"
         app:layout_constraintVertical_bias="0.571" />
 
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        android:onClick="goToPop"
+        android:src="@drawable/ic_map"
+        app:layout_constraintBottom_toBottomOf="@+id/background3"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="@+id/background3"
+        app:layout_constraintTop_toTopOf="@+id/background3"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00FFFFFF"
+        android:onClick="goToPop"
+        android:src="@drawable/ic_map"
+        app:layout_constraintBottom_toBottomOf="@+id/background13"
+        app:layout_constraintEnd_toEndOf="@+id/background13"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="@+id/background13"
+        app:layout_constraintTop_toTopOf="@+id/background13"
+        app:layout_constraintVertical_bias="0.178" />
+
 
 </android.support.constraint.ConstraintLayout>
