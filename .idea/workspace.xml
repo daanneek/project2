@@ -12,33 +12,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1e4e8e-ecd4-429d-81f4-c31cf22b3538" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/CMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/CMD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/CMGT.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/CMGT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/i.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/ti.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/ti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cmgt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cmgt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_communicatie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_communicatie.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_informatica.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_informatica.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_technischeinformatica.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_technischeinformatica.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0f1e4e8e-ecd4-429d-81f4-c31cf22b3538" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,10 +63,7 @@
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-              <folding>
-                <element signature="e#3863#3885#0" expanded="true" />
-              </folding>
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -100,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/ti.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="340">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -214,9 +185,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-186" />
-    <option name="y" value="79" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="73" />
+    <option name="y" value="132" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -228,6 +199,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -262,24 +251,6 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="project2-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="project2-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,6 +379,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556199097774</updated>
     </task>
+    <task id="LOCAL-00001" summary="Nieuwe popup window functie per pagina">
+      <created>1558625977764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558625977764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -420,10 +399,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="73" y="132" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.50212765" side_tool="true" weight="0.17181209" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49787235" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49787235" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="2" sideWeight="0.50080776" side_tool="true" weight="0.19402985" />
       <window_info id="Favorites" order="3" sideWeight="0.50080776" side_tool="true" weight="0.19402985" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -436,9 +415,9 @@
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49840087" weight="0.3253796" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49840087" weight="0.37418655" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4989339" weight="0.32827735" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.2340195" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.4978678" visible="true" weight="0.2340195" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.2340195" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49733475" visible="true" weight="0.2340195" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" weight="0.32827735" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49733475" weight="0.33261105" />
       <window_info anchor="bottom" id="Debug" order="9" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="10" visible="true" weight="0.32827735" />
@@ -447,8 +426,12 @@
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Preview" order="5" visible="true" weight="0.20842217" />
+      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.20842217" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nieuwe popup window functie per pagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nieuwe popup window functie per pagina" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contactform.xml">
@@ -695,26 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/ti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/Pop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cmgt.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -747,6 +710,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2-master.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/i.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -768,17 +745,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/ti.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project2-master.iml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidhunger/opendagapp/Pop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -786,10 +769,7 @@
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding>
-            <element signature="e#3863#3885#0" expanded="true" />
-          </folding>
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
