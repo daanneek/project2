@@ -17,7 +17,7 @@ public class i extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_informatica);
+        setContentView(R.layout.activity_i);
 
     }
     public void goToPop(View v) {
@@ -25,6 +25,12 @@ public class i extends AppCompatActivity {
         startActivity(a);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
+    public void goToPopUp(View v) {
+        Intent a = new Intent(this, popplattegronden.class);
+        startActivity(a);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+
 
 
     public void calender1(View v){

@@ -24,6 +24,11 @@ public class CMD extends AppCompatActivity {
         startActivity(a);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
+    public void goToPopUp(View v) {
+        Intent a = new Intent(this, popplattegronden.class);
+        startActivity(a);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
     public void calender1(View v){
         Calendar beginTime = Calendar.getInstance();
         beginTime.set(2020, 3, 17, 7, 30);
@@ -56,7 +61,7 @@ public class CMD extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public void share5(View v) {
+    public void share7(View v) {
         String date = "Vrijdag 17 april 2020";
         String opleiding = "Communication and multimedia design";
         Intent myIntent = new Intent(Intent.ACTION_SEND);
@@ -69,7 +74,7 @@ public class CMD extends AppCompatActivity {
 
     }
 
-    public void share6(View v) {
+    public void share8(View v) {
         String date = "Maandag 6 januari 2020";
         String opleiding = "Communication and multimedia design";
         Intent myIntent = new Intent(Intent.ACTION_SEND);

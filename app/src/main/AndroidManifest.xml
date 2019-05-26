@@ -37,7 +37,9 @@
         </activity>
 
         <activity android:name="com.androidhunger.opendagapp.Pop"
-            android:theme="@style/AppTheme.CustomTheme" android:label="@string/Locatie"/>
+            android:theme="@style/AppTheme.CustomTheme" android:label="Klik voor google maps"/>
+        <activity android:name="com.androidhunger.opendagapp.popplattegronden"
+            android:theme="@style/AppTheme.CustomTheme" android:label = "Open dag informatie"/>
 
     </application>
 

@@ -37,21 +37,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/opendaginfo16"
-        android:layout_width="412dp"
-        android:layout_height="97dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="@drawable/informaticabanner"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/background1"
         android:layout_width="475dp"
@@ -70,25 +55,42 @@
         app:layout_constraintTop_toBottomOf="@+id/opendaginfo1" />
 
     <TextView
+        android:id="@+id/background15"
+        android:layout_width="475dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opendaginfo1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
         android:id="@+id/background14"
         android:layout_width="475dp"
         android:layout_height="17dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="164dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="96dp"
         android:background="@color/colorPrimary"
         android:gravity="center"
         android:textColor="#FFF"
         android:textSize="13sp"
-        app:layout_constraintBottom_toBottomOf="@+id/opendaginfo16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/background13"
-        app:layout_constraintVertical_bias="0.982" />
+        app:layout_constraintTop_toBottomOf="@+id/background13" />
 
     <TextView
         android:id="@+id/textView5"
@@ -108,10 +110,10 @@
     <TextView
         android:id="@+id/background3"
         android:layout_width="match_parent"
-        android:layout_height="132dp"
+        android:layout_height="160dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginTop="268dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
@@ -119,14 +121,14 @@
         android:textColor="#FFF"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/background13"
         android:layout_width="match_parent"
-        android:layout_height="132dp"
+        android:layout_height="160dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -150,20 +152,18 @@
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:background="#00ffffff"
         android:onClick="share1"
         android:scaleType="fitXY"
         android:src="@drawable/ic_share_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/background3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/opendaginfo4"
-        app:layout_constraintVertical_bias="0.647" />
+        app:layout_constraintTop_toTopOf="@+id/background3"
+        app:layout_constraintVertical_bias="0.883" />
 
     <ImageButton
         android:id="@+id/opendagshare14"
@@ -175,10 +175,11 @@
         android:src="@drawable/ic_share_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/background13"
         app:layout_constraintEnd_toEndOf="@+id/background13"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="@+id/background13"
         app:layout_constraintTop_toTopOf="@+id/background13"
-        app:layout_constraintVertical_bias="0.836" />
+        app:layout_constraintVertical_bias="0.883" />
+
 
     <ImageButton
         android:id="@+id/opendaginfo4"
@@ -190,25 +191,10 @@
         android:src="@drawable/ic_today_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/background3"
         app:layout_constraintEnd_toEndOf="@+id/background3"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="@+id/background3"
         app:layout_constraintTop_toTopOf="@+id/background3"
-        app:layout_constraintVertical_bias="0.163" />
-
-    <ImageButton
-        android:id="@+id/opendaginfo14"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="#00FFFFFF"
-        android:onClick="calender1"
-        android:scaleType="fitXY"
-        android:src="@drawable/ic_today_black_24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background3"
-        app:layout_constraintEnd_toEndOf="@+id/background3"
-        app:layout_constraintHorizontal_bias="0.949"
-        app:layout_constraintStart_toStartOf="@+id/background3"
-        app:layout_constraintTop_toTopOf="@+id/background3"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.883" />
 
     <ImageButton
         android:id="@+id/opendaginfo15"
@@ -220,10 +206,10 @@
         android:src="@drawable/ic_today_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/background13"
         app:layout_constraintEnd_toEndOf="@+id/background13"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="@+id/background13"
         app:layout_constraintTop_toTopOf="@+id/background13"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.883" />
 
     <TextView
         android:id="@+id/textView3"
@@ -238,10 +224,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/background3"
         app:layout_constraintEnd_toEndOf="@+id/background3"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/image9"
         app:layout_constraintTop_toTopOf="@+id/background3"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="0.156" />
 
     <ImageView
         android:id="@+id/image9"
@@ -254,7 +240,7 @@
         app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="@+id/background3"
         app:layout_constraintTop_toTopOf="@+id/background3"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.16000003" />
 
     <ImageView
         android:id="@+id/image15"
@@ -267,7 +253,7 @@
         app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="@+id/background13"
         app:layout_constraintTop_toTopOf="@+id/background13"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/textView6"
@@ -280,40 +266,66 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/background13"
         app:layout_constraintEnd_toEndOf="@+id/background13"
-        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="@+id/background13"
         app:layout_constraintTop_toTopOf="@+id/background13"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.156" />
 
     <ImageButton
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:background="#00FFFFFF"
-        android:src="@drawable/ic_map"
         android:onClick="goToPop"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="288dp"
+        android:src="@android:drawable/ic_dialog_map"
         app:layout_constraintBottom_toBottomOf="@+id/background3"
         app:layout_constraintEnd_toEndOf="@+id/background3"
-        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/background3"
         app:layout_constraintTop_toTopOf="@+id/background3"
-        app:layout_constraintVertical_bias="0.163"/>
+        app:layout_constraintVertical_bias="0.883" />
 
     <ImageButton
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:background="#00FFFFFF"
-        android:src="@drawable/ic_map"
         android:onClick="goToPop"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="288dp"
+        android:src="@android:drawable/ic_dialog_map"
         app:layout_constraintBottom_toBottomOf="@+id/background13"
         app:layout_constraintEnd_toEndOf="@+id/background13"
-        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/background13"
         app:layout_constraintTop_toTopOf="@+id/background13"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.883" />
+
+    <ImageButton
+        android:id="@+id/opendaginfo13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:onClick="goToPopUp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background13"
+        app:layout_constraintEnd_toEndOf="@+id/background13"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="@+id/background13"
+        app:layout_constraintTop_toTopOf="@+id/background13"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <ImageButton
+        android:id="@+id/opendaginfo17"
+        android:layout_width="79dp"
+        android:layout_height="78dp"
+        android:background="#00FFFFFF"
+        android:onClick="calender1"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background3"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="@+id/background3"
+        app:layout_constraintTop_toTopOf="@+id/background3"
+        app:layout_constraintVertical_bias="0.231" />
 
 
 </android.support.constraint.ConstraintLayout>

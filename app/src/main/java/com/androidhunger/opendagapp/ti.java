@@ -16,11 +16,16 @@ public class ti extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_technischeinformatica);
+        setContentView(R.layout.activity_ti);
 
     }
     public void goToPop(View v) {
         Intent a = new Intent(this, Pop.class);
+        startActivity(a);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+    public void goToPopUp(View v) {
+        Intent a = new Intent(this, popplattegronden.class);
         startActivity(a);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
