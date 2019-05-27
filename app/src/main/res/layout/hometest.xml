@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/opkomende_open_dagen"
+        android:textColor="#aaa" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/overhr"
+        android:padding="10dp"
+        android:gravity="center_vertical|center_horizontal">
+        <TextView
+            android:paddingBottom= "4dp"
+            android:paddingTop= "4dp"
+            android:paddingLeft="10dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Informatica&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 17 April 2020"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:paddingRight="40dp"
+            android:background="#80aaaaaa"/>
+
+        <ImageButton
+            android:id="@+id/opendaginfo1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00ffffff"
+            android:onClick="goToInformatica"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_info_outline_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="12dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/overhr"
+        android:padding="10dp"
+        android:gravity="center_vertical|center_horizontal">
+        <TextView
+            android:paddingBottom= "4dp"
+            android:paddingTop= "4dp"
+            android:paddingLeft="10dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Communicatie&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 17 April 2020"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:paddingRight="40dp"
+            android:background="#80aaaaaa"/>
+
+        <ImageButton
+            android:id="@+id/opendaginfo2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00ffffff"
+            android:onClick="goToCommunicatie"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_info_outline_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="12dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/overhr"
+        android:padding="10dp"
+        android:gravity="center_vertical|center_horizontal">
+        <TextView
+            android:paddingBottom= "4dp"
+            android:paddingTop= "4dp"
+            android:paddingLeft="10dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Technische Informatica&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 17 April 2020"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:paddingRight="40dp"
+            android:background="#80aaaaaa"/>
+
+        <ImageButton
+            android:id="@+id/opendaginfo3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00ffffff"
+            android:onClick="goToTechnischeInformatica"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_info_outline_black_24dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/edit"
+        android:onClick="GoToHelp"
+        android:text="@string/support"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:typeface="serif" />
+</LinearLayout>
+

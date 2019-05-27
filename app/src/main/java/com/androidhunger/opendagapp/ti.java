@@ -7,7 +7,7 @@ import android.provider.CalendarContract;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.androidhunger.navigationdrawerexample.R;
+import com.androidhunger.opendagapp.R;
 
 import java.util.Calendar;
 

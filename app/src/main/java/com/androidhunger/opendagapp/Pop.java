@@ -1,6 +1,5 @@
 package com.androidhunger.opendagapp;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -8,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.View;
 
-import com.androidhunger.navigationdrawerexample.R;
+import com.androidhunger.opendagapp.R;
 
 public class Pop extends AppCompatActivity {
 

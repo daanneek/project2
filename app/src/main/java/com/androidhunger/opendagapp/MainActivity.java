@@ -1,6 +1,6 @@
 package com.androidhunger.opendagapp;
 
-import android.app.Activity;
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,18 +12,13 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-import com.androidhunger.navigationdrawerexample.R;
-
-public class MainActivity extends AppCompatActivity
-
-
-        implements NavigationView.OnNavigationItemSelectedListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,9 +29,9 @@ public class MainActivity extends AppCompatActivity
             Fragment newFragment = new HomeFragment();
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.add(R.id.content_frame, newFragment);
-            ft.addToBackStack(null);
             ft.commit();
         }
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -45,8 +40,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
     }
 
 
@@ -54,46 +47,47 @@ public class MainActivity extends AppCompatActivity
         Intent a = new Intent(this, i.class);
         startActivity(a);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-
-
     }
-
     public void goToTechnischeInformatica(View v) {
         Intent b = new Intent(this, ti.class);
         startActivity(b);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-
     }
-
     public void goToCommunicatie(View v) {
         Intent c = new Intent(this, C.class);
         startActivity(c);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
-
     public void goToCMGT(View v) {
         Intent d = new Intent(this, CMGT.class);
         startActivity(d);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
-
     public void goToCMD(View v) {
         Intent e = new Intent(this, CMD.class);
         startActivity(e);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
+    public void GoToHelp(View v) {
+        FragmentTransaction t = getSupportFragmentManager().beginTransaction();
+        t.replace(R.id.content_frame, new OverApp());
+        t.commit();
+
+    }
+
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+        //get this to work with buttons on home page
         int id = item.getItemId();
         Fragment fragment = null;
         if (id == R.id.home) {
             fragment = new HomeFragment();
-        } else if (id == R.id.studies) {
+        } else if (id == R.id.btnStudies) {
             fragment = new Studies();
         } else if (id == R.id.btnOpendagen) {
             fragment = new Questionform();
-        } else if (id == R.id.btnTemp1) {
+        } else if (id == R.id.btnContact) {
             fragment = new OpenDagen();
         } else if (id == R.id.btnOverHR) {
             fragment = new OverHr();

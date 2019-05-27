@@ -17,7 +17,6 @@
         android:paddingLeft="130sp"
         android:paddingRight="130sp"
         android:text="@string/informatica"
-
         android:textColor="#ffffff" />
 
     <Button

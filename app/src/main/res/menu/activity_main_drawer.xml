@@ -7,11 +7,11 @@
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/home" />
         <item
-            android:id="@+id/btnTemp1"
+            android:id="@+id/btnContact"
             android:icon="@drawable/ic_today_black_24dp"
             android:title="@string/open_dagen" />
         <item
-            android:id="@+id/studies"
+            android:id="@+id/btnStudies"
             android:icon="@drawable/ic_book_black_24dp"
             android:title="@string/studies" />
         <item

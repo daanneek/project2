@@ -6,9 +6,8 @@ import android.os.Bundle;
 import android.provider.CalendarContract;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageButton;
 
-import com.androidhunger.navigationdrawerexample.R;
+import com.androidhunger.opendagapp.R;
 
 import java.util.Calendar;
 
