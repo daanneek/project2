@@ -354,7 +354,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <Button
-            android:id="@+id/btnContact"
+            android:id="@+id/btnOpenDag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dip"
@@ -364,7 +364,7 @@
             android:textColor="#FFF" />
 
         <Button
-            android:id="@+id/btnOpendagen"
+            android:id="@+id/btnContact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dip"

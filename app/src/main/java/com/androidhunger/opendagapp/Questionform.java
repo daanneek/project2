@@ -1,5 +1,7 @@
 package com.androidhunger.opendagapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,7 +19,7 @@ public class Questionform extends Fragment {
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.questionform, container, false);
+        return inflater.inflate(R.layout.activity_contactform, container, false);
     }
 
 }

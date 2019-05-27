@@ -1,6 +1,5 @@
 package com.androidhunger.opendagapp;
 
-import android.app.FragmentManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -14,7 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -73,7 +71,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         FragmentTransaction t = getSupportFragmentManager().beginTransaction();
         t.replace(R.id.content_frame, new OverApp());
         t.commit();
-
+    }
+    public void GoToMaps(View v){
+        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                Uri.parse("https://goo.gl/maps/th5DFNRcuoGjCafS9"));
+        startActivity(intent);
     }
 
     @Override
@@ -85,9 +87,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             fragment = new HomeFragment();
         } else if (id == R.id.btnStudies) {
             fragment = new Studies();
-        } else if (id == R.id.btnOpendagen) {
-            fragment = new Questionform();
         } else if (id == R.id.btnContact) {
+            fragment = new Questionform();
+        } else if (id == R.id.btnOpenDag) {
             fragment = new OpenDagen();
         } else if (id == R.id.btnOverHR) {
             fragment = new OverHr();

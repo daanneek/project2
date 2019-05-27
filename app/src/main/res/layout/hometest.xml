@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="5">
+    android:weightSum="5"
+>
 
     <TextView
         android:layout_width="match_parent"
@@ -12,7 +13,8 @@
         android:gravity="center"
         android:layout_weight="1"
         android:text="@string/opkomende_open_dagen"
-        android:textColor="#aaa" />
+        android:textColor="#aaa"
+        />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_weight="1"

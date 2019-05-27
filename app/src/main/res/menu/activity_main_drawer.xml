@@ -7,7 +7,7 @@
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/home" />
         <item
-            android:id="@+id/btnContact"
+            android:id="@+id/btnOpenDag"
             android:icon="@drawable/ic_today_black_24dp"
             android:title="@string/open_dagen" />
         <item
@@ -15,7 +15,7 @@
             android:icon="@drawable/ic_book_black_24dp"
             android:title="@string/studies" />
         <item
-            android:id="@+id/btnOpendagen"
+            android:id="@+id/btnContact"
             android:icon="@drawable/ic_question_answer_black_24dp"
             android:title="@string/contact" />
         <item
