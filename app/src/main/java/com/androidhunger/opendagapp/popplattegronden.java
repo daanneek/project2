@@ -17,6 +17,7 @@ public class popplattegronden extends AppCompatActivity {
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
 
+
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
