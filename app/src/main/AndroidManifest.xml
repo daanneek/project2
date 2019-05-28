@@ -26,6 +26,9 @@
             android:label="@string/c"/>
         <activity android:name="com.androidhunger.opendagapp.ti"
             android:label="@string/TI"/>
+        <activity android:name="com.androidhunger.opendagapp.pophelp"
+            android:label="@string/help" android:theme="@style/AppTheme.CustomTheme"/>
+
         <activity
             android:name="com.androidhunger.opendagapp.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/ic_share_black_24dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="4dp"
+/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delen via beschikbare apps op uw telefoon. "/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/ic_help_outline_black_24dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="4dp"
+        android:paddingBottom="10dp"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="extra informatie over een bepaalde open dag."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/ic_today_black_24dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="4dp"
+                />
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voeg een bepaalde open dag toe aan uw kalender. "/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/ic_map"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="4dp"
+                />
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open een pop up met de locatie van de school en een link naar google maps. "/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/ic_info_outline_black_24dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="4dp"
+                />
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laat meer informatie zien over een bepaalde studie en haar open dagen. "/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

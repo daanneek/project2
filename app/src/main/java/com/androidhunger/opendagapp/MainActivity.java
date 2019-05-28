@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -39,7 +40,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+    public void showhome(){
+        fragment = new HomeFragment();
+        if(fragment!=null){
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_frame, fragment, fragment.getTag()).commit();
+        }
+    }
 
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        if(drawer.isDrawerOpen(GravityCompat.START)){ drawer.closeDrawer(GravityCompat.START);}
+        else {
+            if (fragment instanceof HomeFragment) {
+                super.onBackPressed();
+            }
+            else{showhome();}
+
+        }
+    }
 
     public void goToInformatica(View v) {
         Intent a = new Intent(this, i.class);
@@ -68,9 +88,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void GoToHelp(View v) {
-        FragmentTransaction t = getSupportFragmentManager().beginTransaction();
-        t.replace(R.id.content_frame, new OverApp());
-        t.commit();
+        Intent e = new Intent(this, pophelp.class);
+        startActivity(e);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
     public void GoToMaps(View v){
         Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
@@ -78,11 +98,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(intent);
     }
 
+
+    Fragment fragment = null;
+
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         //get this to work with buttons on home page
         int id = item.getItemId();
-        Fragment fragment = null;
         if (id == R.id.home) {
             fragment = new HomeFragment();
         } else if (id == R.id.btnStudies) {
@@ -99,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             ft.replace(R.id.content_frame, fragment);
             ft.commit();
         }
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -11,9 +11,9 @@
     <string name="subject">Subject</string>
     <string name="message">Message</string>
     <string name="send">Send</string>
-    <string name="daanneek_gmail_com">blank@gmail.com</string>
+    <string name="schoolmail">studievoorlichting@hr.nl</string>
     <string name="subjectactual">Onderwerp </string>
-    <string name="questionactual">Vragen en/of opmerkingen</string>
+    <string name="questionactual">Vragen</string>
     <string name="second_page">Second page</string>
     <string name="third_page">third page</string>
     <string name="question_form">Question form</string>

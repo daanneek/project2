@@ -6,8 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.androidhunger.opendagapp.R;
-
 
 public class Studies extends Fragment {
 
@@ -16,7 +14,7 @@ public class Studies extends Fragment {
         getActivity().setTitle("Studies");
     }
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.studies, container, false);
+        return inflater.inflate(R.layout.fragment_studies, container, false);
 
     }
 
