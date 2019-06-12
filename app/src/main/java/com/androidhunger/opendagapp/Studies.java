@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 
 public class Studies extends Fragment {
-
+    //page with a list to all the pages of the studies available under CMI//
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("Studies");

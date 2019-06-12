@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 
 
 public class OverHr extends Fragment {
+    //shows a page with more information about hogeschool rotterdam and rotterdam itself.
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

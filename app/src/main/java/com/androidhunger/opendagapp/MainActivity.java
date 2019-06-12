@@ -12,12 +12,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-
+//Mainactivity that shows home_fragment on startup, enables the menu, sets all functions for fragments in the app, sets backbutton to go to home fragment //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,10 +59,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 super.onBackPressed();
             }
             else{showhome();}
-
         }
     }
-
     public void goToInformatica(View v) {
         Intent a = new Intent(this, i.class);
         startActivity(a);
@@ -116,6 +116,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.btnOverHR) {
             fragment = new OverHr();
         }
+        else if (id == R.id.btnInschrijven) {
+            Intent a = new Intent(this, Inschrijven.class);
+            startActivity(a);
+        }
+
+
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment);

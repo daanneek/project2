@@ -1,14 +1,12 @@
 package com.androidhunger.opendagapp;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
-import android.view.View;
+
 
 public class pophelp extends AppCompatActivity {
-
+    //popup that shows when you press the support button on the home screen and opens a small window with information about the buttons in the app.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +18,7 @@ public class pophelp extends AppCompatActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width*.8), (int) (height*.605));
+        getWindow().setLayout((int) (width*.8), (int) (height*.50));
 
     }
 

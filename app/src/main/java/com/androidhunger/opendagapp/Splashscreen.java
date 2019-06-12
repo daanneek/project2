@@ -8,6 +8,7 @@ import android.os.Bundle;
 import com.androidhunger.opendagapp.R;
 
 public class Splashscreen extends AppCompatActivity {
+    //startup screen that shows when you launch the app, is enabled in mainactivity//
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

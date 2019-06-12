@@ -1,23 +1,30 @@
 package com.androidhunger.opendagapp;
 
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.CalendarContract;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
-
-import com.androidhunger.opendagapp.R;
 
 import java.util.Calendar;
 
 public class C extends AppCompatActivity {
-
+//Activity that shows the specific information about Communication, with links to share, more info, a map and add to calender //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);}
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        Intent myIntent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivityForResult(myIntent, 0);
+        return true;
     }
     public void goToPop(View v) {
         Intent a = new Intent(this, Pop.class);
@@ -25,7 +32,7 @@ public class C extends AppCompatActivity {
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
     public void goToPopUp(View v) {
-        Intent a = new Intent(this, popplattegronden.class);
+        Intent a = new Intent(this, popplattegrondenComm.class);
         startActivity(a);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }

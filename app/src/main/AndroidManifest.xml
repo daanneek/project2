@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androidhunger.opendagapp"
->
+    package="com.androidhunger.opendagapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <application
         android:allowBackup="true"
@@ -9,28 +10,45 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.androidhunger.opendagapp.Splashscreen"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <action android:name="android.intent.action.VIEW" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+        <activity
 
-        <activity android:name="com.androidhunger.opendagapp.i"
-            android:label="@string/I"/>
-        <activity android:name="com.androidhunger.opendagapp.CMGT"
-            android:label="@string/CMGT"/>
-        <activity android:name="com.androidhunger.opendagapp.CMD"
-            android:label="@string/CMD"/>
-        <activity android:name="com.androidhunger.opendagapp.C"
-            android:label="@string/c"/>
-        <activity android:name="com.androidhunger.opendagapp.ti"
-            android:label="@string/TI"/>
-        <activity android:name="com.androidhunger.opendagapp.pophelp"
-            android:label="@string/help" android:theme="@style/AppTheme.CustomTheme"/>
+            android:name=".Inschrijven"
+            android:label="@string/title_activity_inschrijven"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
 
         <activity
-            android:name="com.androidhunger.opendagapp.MainActivity"
+            android:name=".Splashscreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".i"
+            android:label="@string/I" />
+        <activity
+            android:name=".CMGT"
+            android:label="@string/CMGT" />
+        <activity
+            android:name=".CMD"
+            android:label="@string/CMD" />
+        <activity
+            android:name=".C"
+            android:label="@string/c" />
+        <activity
+            android:name=".ti"
+            android:label="@string/TI" />
+        <activity
+            android:name=".pophelp"
+            android:label="@string/help"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,12 +57,30 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name="com.androidhunger.opendagapp.Pop"
-            android:theme="@style/AppTheme.CustomTheme" android:label="Klik voor google maps"/>
-        <activity android:name="com.androidhunger.opendagapp.popplattegronden"
-            android:theme="@style/AppTheme.CustomTheme" android:label = "Open dag informatie"/>
-
+        <activity
+            android:name=".Pop"
+            android:label="Klik voor google maps"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".popplattegrondenInformatica"
+            android:label="Open dag informatie"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".popplattegrondenTechnischeInformatica"
+            android:label="Open dag Technische Informatica"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".popplattegrondenCMD"
+            android:label="Open dag CMD"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".popplattegrondenCMGT"
+            android:label="Open dag CMGT"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".popplattegrondenComm"
+            android:label="Open dag Communicatie"
+            android:theme="@style/AppTheme.CustomTheme" />
     </application>
 
 </manifest>

@@ -12,6 +12,7 @@ import com.androidhunger.opendagapp.R;
 
 
 public class Questionform extends Fragment {
+    //opens a fragment that shows a question form and a map with a route to the building, and a clickable image that takes you to google maps//
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

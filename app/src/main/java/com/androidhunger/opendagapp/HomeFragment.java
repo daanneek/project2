@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        //sets title as "Home"and binds xml button id's to respective buttons, and sets their click.
+        //sets current fragment as fragment_home, title as "Home"and shows xml with upcoming open days and a support button
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("Home");
 

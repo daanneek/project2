@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,8 +18,7 @@
         android:gravity="center"
         android:layout_weight="1"
         android:text="@string/opkomende_open_dagen"
-        android:textColor="#aaa"
-        />
+        android:textColor="#000"/>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_weight="1"
@@ -28,7 +32,7 @@
             android:paddingBottom= "4dp"
             android:paddingTop= "4dp"
             android:paddingLeft="10dp"
-            android:layout_width="210dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Informatica&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 17 April 2020"
             android:textColor="#fff"
@@ -70,7 +74,7 @@
             android:paddingBottom= "4dp"
             android:paddingTop= "4dp"
             android:paddingLeft="10dp"
-            android:layout_width="210dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Communicatie&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 17 April 2020"
             android:textColor="#fff"
@@ -112,12 +116,12 @@
             android:paddingBottom= "4dp"
             android:paddingTop= "4dp"
             android:paddingLeft="10dp"
-            android:layout_width="210dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Technische Informatica&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 17 April 2020"
             android:textColor="#fff"
             android:textStyle="bold"
-            android:paddingRight="40dp"
+            android:paddingRight="20dp"
             android:background="#80aaaaaa"/>
 
         <ImageButton
@@ -146,4 +150,4 @@
         android:textColor="#fff"
         android:textSize="30sp" />
 </LinearLayout>
-
+</ScrollView>

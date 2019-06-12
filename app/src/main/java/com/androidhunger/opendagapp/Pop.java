@@ -8,7 +8,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 
 public class Pop extends AppCompatActivity {
-
+    //popup that shows when you press the I button on pages with open days
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
